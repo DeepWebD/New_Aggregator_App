@@ -37,7 +37,7 @@ export const fetchNewsDataAPI = async (keyword: string) => {
       description: result.description,
       url: result.link,
       date: result.pubDate,
-      category: result.category,
+      category: result.category[0],
       author: result.creator || "unknown",
       source: result.source_name,
     }
