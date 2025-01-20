@@ -9,7 +9,7 @@
 Steps:
 
 - Clone `git clone https://github.com/DeepWebD/New_Aggregator_App.git`
-- move project folder
+- move project folder `cd New_Aggregator_App`
 - Run `npm install`
 - Run `npm run dev`
 
