@@ -1,0 +1,25 @@
+.filters{
+    display: flex;
+
+    margin: 20px 0;
+    gap: 20px;
+}
+.filters select, input{
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px){
+    .filters{
+        flex-direction: column;
+        justify-content:start;
+        align-items: start;
+    }
+    .filters select, input{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+}

@@ -1,0 +1,31 @@
+.newsCard{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    position: relative;
+}
+
+.category{
+    position: absolute;
+    top: -17px;
+    left: 0;
+    padding: 0.5rem 1rem;
+    background-color: purple;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 10px;
+}
+.date{
+    font-size: 0.8rem;
+    color: grey;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
