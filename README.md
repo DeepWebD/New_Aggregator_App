@@ -12,6 +12,7 @@ Steps:
 - move project folder `cd New_Aggregator_App`
 - Run `npm install`
 - Run `npm run dev`
+- Open `http://localhost:5173/` in your browser
 
 ## What's in application
 
