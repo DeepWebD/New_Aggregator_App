@@ -1,4 +1,7 @@
 # News Aggregator App
+## Pre- requisite
+- Required Node version v22.12.0 `https://nodejs.org/en/download`
+- Need any code editor if want to see code (Visual studio code)
 
 ## How to run?
 
