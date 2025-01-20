@@ -27,7 +27,7 @@ export const fetchNews = async (keyword: string): Promise<NewsResponse[]> => {
 
 export const fetchNewsDataAPI = async (keyword: string) => {
   const response = await fetch(
-    `https://newsdata.io/api/1/latest?apikey=pub_65570aeebf124c0ebc8d244e8b6bb0c186826&q=${keyword}{&domainurl=news.google.com`,
+    `https://newsdata.io/api/1/latest?apikey=pub_65570aeebf124c0ebc8d244e8b6bb0c186826&q=${keyword}&domainurl=news.google.com`,
   )
   const news = await response.json()
   const newsData = news.results.map((result: Result) => {
