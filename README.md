@@ -2,6 +2,7 @@
 ## Pre- requisite
 - Required Node version v22.12.0 `https://nodejs.org/en/download`
 - Need any code editor if want to see code (Visual studio code)
+- Make sure you have git installed, If not download from ```https://git-scm.com/downloads```
 
 ## How to run?
 
