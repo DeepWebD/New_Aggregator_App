@@ -4,7 +4,7 @@
 
 Steps:
 
-- Clone
+- Clone `git clone https://github.com/DeepWebD/New_Aggregator_App.git`
 - move project folder
 - Run `npm install`
 - Run `npm run dev`
