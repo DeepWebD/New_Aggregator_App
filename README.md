@@ -1,13 +1,18 @@
 # News Aggregator App
+## Pre- requisite
+- Required Node version v22.12.0 `https://nodejs.org/en/download`
+- Need any code editor if want to see code (Visual studio code)
+- Make sure you have git installed, If not download from ```https://git-scm.com/downloads```
 
 ## How to run?
 
 Steps:
 
 - Clone `git clone https://github.com/DeepWebD/New_Aggregator_App.git`
-- move project folder
+- move project folder `cd New_Aggregator_App`
 - Run `npm install`
 - Run `npm run dev`
+- Open `http://localhost:5173/` in your browser
 
 ## What's in application
 
